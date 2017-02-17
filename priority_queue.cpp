@@ -8,7 +8,9 @@
 //public:
 //	bool operator()(const int &a,const int &b)
 //	{
-//		return a > b;
+//		//return a > b;
+//		//true a在后面
+//		//false a在前面
 //	}
 //};
 //priority_queue<int, vector<int>, cmp> pque;
