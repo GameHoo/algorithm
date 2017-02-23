@@ -15,17 +15,22 @@
 //		{
 //			scanf("%d", &a[i]);
 //		}
-//		int s = 0, t = 0, sum = 0;
+//		int s = 0, t = 0, sum = a[0];
 //		int res = N + 1;
-//		while (true)
+//		while (s<=t && t<N)
 //		{
-//			while (t<N && sum<S)
+//			if (sum < S)
 //			{
-//				sum += a[t++];
+//				sum += a[++t];
 //			}
-//			if (sum < S)break;
-//			res = min(res, t - s);
-//			sum -= a[s++];
+//			else
+//			{
+//				if ((t - s + 1) < res)
+//				{
+//					res = t - s + 1;
+//				}
+//				sum -= a[s++];
+//			}
 //		}
 //		if (res > N)res = 0;
 //		printf("%d\n", res);
