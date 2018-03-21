@@ -1,0 +1,3 @@
+C:/Users/Ts/Desktop/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir
+C:/Users/Ts/Desktop/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ts/Desktop/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
