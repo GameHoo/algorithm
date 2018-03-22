@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Ts/Desktop/algorithm/sort/Bubble Sort.cpp" "C:/Users/Ts/Desktop/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.obj"
-  "C:/Users/Ts/Desktop/algorithm/sort/Quick Sort.cpp" "C:/Users/Ts/Desktop/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.obj"
+  "F:/algorithm/sort/Bubble Sort.cpp" "F:/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.obj"
+  "F:/algorithm/sort/Quick Sort.cpp" "F:/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

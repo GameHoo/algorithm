@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2017.3.4\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "D:\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Ts\Desktop\algorithm
+CMAKE_SOURCE_DIR = F:\algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Ts\Desktop\algorithm\cmake-build-debug
+CMAKE_BINARY_DIR = F:\algorithm\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/algorithm.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/algorithm.dir/flags.make
 
 CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.obj: CMakeFiles/algorithm.dir/flags.make
 CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.obj: ../sort/Bubble\ Sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ts\Desktop\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\algorithm.dir\sort\Bubble_Sort.cpp.obj -c "C:\Users\Ts\Desktop\algorithm\sort\Bubble Sort.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\algorithm.dir\sort\Bubble_Sort.cpp.obj -c "F:\algorithm\sort\Bubble Sort.cpp"
 
 CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ts\Desktop\algorithm\sort\Bubble Sort.cpp" > CMakeFiles\algorithm.dir\sort\Bubble_Sort.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\algorithm\sort\Bubble Sort.cpp" > CMakeFiles\algorithm.dir\sort\Bubble_Sort.cpp.i
 
 CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ts\Desktop\algorithm\sort\Bubble Sort.cpp" -o CMakeFiles\algorithm.dir\sort\Bubble_Sort.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\algorithm\sort\Bubble Sort.cpp" -o CMakeFiles\algorithm.dir\sort\Bubble_Sort.cpp.s
 
 CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/algorithm.dir/sort/Bubble_Sort.cpp.obj.provides.build: CMakeFiles/alg
 
 CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.obj: CMakeFiles/algorithm.dir/flags.make
 CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.obj: ../sort/Quick\ Sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ts\Desktop\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\algorithm.dir\sort\Quick_Sort.cpp.obj -c "C:\Users\Ts\Desktop\algorithm\sort\Quick Sort.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\algorithm.dir\sort\Quick_Sort.cpp.obj -c "F:\algorithm\sort\Quick Sort.cpp"
 
 CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ts\Desktop\algorithm\sort\Quick Sort.cpp" > CMakeFiles\algorithm.dir\sort\Quick_Sort.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\algorithm\sort\Quick Sort.cpp" > CMakeFiles\algorithm.dir\sort\Quick_Sort.cpp.i
 
 CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ts\Desktop\algorithm\sort\Quick Sort.cpp" -o CMakeFiles\algorithm.dir\sort\Quick_Sort.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\algorithm\sort\Quick Sort.cpp" -o CMakeFiles\algorithm.dir\sort\Quick_Sort.cpp.s
 
 CMakeFiles/algorithm.dir/sort/Quick_Sort.cpp.obj.requires:
 
@@ -118,7 +118,7 @@ algorithm.exe: CMakeFiles/algorithm.dir/build.make
 algorithm.exe: CMakeFiles/algorithm.dir/linklibs.rsp
 algorithm.exe: CMakeFiles/algorithm.dir/objects1.rsp
 algorithm.exe: CMakeFiles/algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ts\Desktop\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable algorithm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable algorithm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\algorithm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/algorithm.dir/clean:
 .PHONY : CMakeFiles/algorithm.dir/clean
 
 CMakeFiles/algorithm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Ts\Desktop\algorithm C:\Users\Ts\Desktop\algorithm C:\Users\Ts\Desktop\algorithm\cmake-build-debug C:\Users\Ts\Desktop\algorithm\cmake-build-debug C:\Users\Ts\Desktop\algorithm\cmake-build-debug\CMakeFiles\algorithm.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\algorithm F:\algorithm F:\algorithm\cmake-build-debug F:\algorithm\cmake-build-debug F:\algorithm\cmake-build-debug\CMakeFiles\algorithm.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/algorithm.dir/depend
 
